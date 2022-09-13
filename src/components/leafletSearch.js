@@ -3,7 +3,7 @@ import { createControlComponent } from '@react-leaflet/core';
 import 'leaflet-search';
 import 'leaflet-search/dist/leaflet-search.min.css';
 
-const createLeafletSearch = ({ searchLayer }) => {
+const createLeafletSearch = () => {
 
  const instance=new L.Control.Search({
 		url: 'https://nominatim.openstreetmap.org/search?format=json&q={s}',

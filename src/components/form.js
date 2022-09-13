@@ -30,8 +30,6 @@ export const Form = () => {
     setFormValues({ ...formValues, [fieldName]: fieldValue });
   };
 
-  console.log(formValues);
-
   const isFormValid = (e) => {
     let formIsValid = true;
 

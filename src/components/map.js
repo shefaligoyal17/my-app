@@ -11,7 +11,6 @@ import LeafletSearch from "./leafletSearch";
 
 export const Map = () => {
   const location = useLocation();
-  console.log(location.state.values);
   const position = [
     location.state.values.latitude,
     location.state.values.longitude,
